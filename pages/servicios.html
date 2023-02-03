@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>irevi</title>
 </head>
+
 <body>
     <header>
         <h1>IREVI</h1>
@@ -22,18 +26,106 @@
         </nav>
     </header>
     <main>
-        <section class="hero-servicios">
-            <h2>¡Bienvenidos a IREVI!</h2>
-            <p>Expertos en acido hialuronico</p>
-            <a href="">¡Agenda tu cita!</a>
+        <section class="carrusel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/ALabios.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/perfilsonrisa.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/labios.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section>
+                <section class="servicios">
+                    <h2>Servicios</h2>
+                    <div class="servicios-contenedor">
+                        <div>
+                            <img src="../img/Rinomodelacion.jpg" alt="">
+                            <h3>Rinomodelacion</h3>
+                            <a href="">Reservar</a>
+                        </div>
+                        <div>
+                            <img src="../img/ALabios.jpg" alt="">
+                            <h3>Aumento de labios</h3>
+                            <a href="">Reservar</a>
+                        </div>
+                        <div>
+                            <img src="../img/PatasGallo.jpg" alt="">
+                            <h3>Patas de gallo</h3>
+                            <a href="">Reservar</a>
+                        </div>
+                        <div>
+                            <img src="../img/perfacial.jpg" alt="">
+                            <h3>Perfilamiento facial</h3>
+                            <a href="">Reservar</a>
+                        </div>
+                    </div>
+                </section>
+        </section>
+        <section>
+            <section class="servicios">
+                <div class="servicios-contenedor">
+                    <div>
+                        <img src="../img/entrecejo.jpeg" alt="">
+                        <h3>Entrecejo</h3>
+                        <a href="">Reservar</a>
+                    </div>
+                    <div>
+                        <img src="../img/ojeras.jpeg" alt="">
+                        <h3>Ojeras</h3>
+                        <a href="">Reservar</a>
+                    </div>
+                    <div>
+                        <img src="../img/pomulos.jpeg" alt="">
+                        <h3>Aumento Pómulos</h3>
+                        <a href="">Reservar</a>
+                    </div>
+                    <div>
+                        <img src="../img/arrugasfrente.jpeg" alt="">
+                        <h3>Arrugas Frente</h3>
+                        <a href="">Reservar</a>
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
-    <footer >
+    <footer>
         <div>
-            <a href="https://www.facebook.com/irevi.mx/"target="_blank"><img src="../img/facebook.png" alt="Logo Facebook"></a>
-            <a href="https://instagram.com/irevi.mx?igshid=NDk5N2NlZjQ=" target="_blank"><img src="../img/instagram.png" alt="Logo Instagram"></a>
-            <a href="https://wa.me/message/QOHBLM75U57BD1" target="_blank"><img src="../img/whatsapp.png" alt="Logo Whatsapp"></a>
+            <a href="https://www.facebook.com/irevi.mx/" target="_blank"><img src="../img/facebook.png"
+                    alt="Logo Facebook"></a>
+            <a href="https://instagram.com/irevi.mx?igshid=NDk5N2NlZjQ=" target="_blank"><img src="../img/instagram.png"
+                    alt="Logo Instagram"></a>
+            <a href="https://wa.me/message/QOHBLM75U57BD1" target="_blank"><img src="../img/whatsapp.png"
+                    alt="Logo Whatsapp"></a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
