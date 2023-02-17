@@ -1,0 +1,37 @@
+/*---HEADER---*/
+
+header{
+    background-color: pink;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+    text-align: start;
+    /*span{
+    }*/
+    }
+
+nav{
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            margin: 10px 15px 15px 10px;
+                a{
+                    list-style: none;
+                    text-decoration: none;
+                    color: white;
+                    &:hover{
+                        color: black;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+    }
+}
