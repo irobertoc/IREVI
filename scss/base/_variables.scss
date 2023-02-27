@@ -1,0 +1,115 @@
+//* VARIABLES
+
+
+//* LISTAS
+
+$colores:
+red,
+pink,
+green,
+tomato,
+gray;
+
+
+$font-size:
+12px,
+16px,
+20px,
+30px;
+
+/*h1{
+    font-size: nth($font-size, 3 );
+    color: nth($colores, 4)  ;
+}
+*/
+
+//* OPERACIONES
+// + - * /
+
+$ancho: 720px;
+/*
+img{
+    width: $ancho / 2 + 10;
+}
+*/
+
+//* MAPAS
+
+/*$boton:(
+//key - value 
+bg-boton: black,
+boder-boton: 2px solid tomato,
+color-texto: white,
+ancho: 150px,
+);*/
+
+/*.boton{
+    background-color: map-get($boton, bg-boton);
+    border: map-get($boto, boder-boton );
+    width: map-get($boton, ancho);
+}*/
+
+
+//* EXTENDS
+
+
+// % PLACEHOLDER
+
+/*%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria{
+    background-color: aqua;
+    border: solid black 2px;
+    @extend %flex;
+}*/
+
+//* MIXINS
+
+/*@mixin flex ($flex, $justify, $aling){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}
+
+.contenedor{
+    @include flex (flex, space-between, center);
+}*/
+
+
+//* CONDICIONALES
+/*OPERADORES DE COMPARACION
+== igual
+!= diferente
+> mayor que
+< menor que
+>= mayor o igual
+<= menor o igual 
+*/
+
+/*
+fi (condificonal){se ejecuta este codido}
+else{se ejecuta este otro}
+*/
+
+/*@mixin modos ($darkmode){
+    @if $darkmode == black{
+        border: solid 2px blueviolet;
+    }@else{
+        border: solid 2px yellow;
+    }
+}
+
+.bd-condiction{
+    @include modos (pink)
+}*/
+
+//* BUCLE
+/*@for $i from 1 through 6{
+    .contenedor # {$i}{
+        order: $i;
+    }
+}*/
