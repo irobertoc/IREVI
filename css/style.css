@@ -393,6 +393,16 @@ footer div img:hover{
     }
 }
 
+@media screen and (max-width:766px){
+    .bienvenidos-nosotros{
+        flex-direction: column;
+    }
+    .bienvenidos-nosotros div{
+        width: 80%;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width:680px){
     footer{
         flex-direction: column;
@@ -468,6 +478,12 @@ footer div img:hover{
 
 @media screen and (max-width:400px){
     .bienvenidos img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .bienvenidos-nosotros img{
         width: 100%;
     }
 }
