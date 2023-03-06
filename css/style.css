@@ -161,7 +161,7 @@ header nav ul li a:hover{
 }
 
 .acido p{
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
     color: white;
 }
@@ -315,6 +315,22 @@ header nav ul li a:hover{
     -moz-box-shadow: 10px 10px 29px 0px rgba(232,170,218,0.75);
 }
 
+.contacto{
+    background-color: pink;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+.contacto h1{
+    background-color: white;
+}
+
+.contacto h2{
+    background-color: white;
+}
+
 /*-------FOOTER-----*/
 footer{
     background-color: pink;
@@ -395,6 +411,16 @@ footer div img:hover{
 
 @media screen and (max-width:766px){
     .bienvenidos-nosotros{
+        flex-direction: column;
+    }
+    .bienvenidos-nosotros div{
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:766px){
+    .acido{
         flex-direction: column;
     }
     .bienvenidos-nosotros div{
